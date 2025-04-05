@@ -126,7 +126,7 @@ header .navGauche
 
 .premier .premierImage img
 {
-    height: 800px;
+    height: 700px;
     width: 100%;
 }
 
@@ -289,5 +289,139 @@ header .navGauche
     margin: 0 0 10px 0;
 }
 
+/* section cinquieme partie  */
 
+.Profil h1
+{
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 40px 20px 20px 60px;
+}
+  
+.Profil .cards
+{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 20px 40px;
+}
+  
+.Profil .card
+{
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 1rem;
+    max-width: 300px;
+    width: 100%;
+    background: #fff;
+}
+  
+.imageProfil
+{
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    gap: 0.75rem;
+}
+  
+.imageProfil img
+{
+    border-radius: 9999px;
+    width: 40px;
+    height: 40px;
+}
 
+/* section sixieme partie  */
+  
+.footerSection
+{
+    background: #fff;
+    padding-top: 40px;
+}
+  
+.footerSection .footerTop
+{
+    background-color: #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+    margin-bottom: 40px;
+}
+
+.footerSection .footerTop h1
+{
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 40px 20px 20px 60px;
+}
+  
+.footerSection .footerTop .buttons button
+{
+    margin-left: 1rem;
+    padding: 0.6rem 1.2rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+  
+.footerSection .footerTop .btn1
+{
+    background: #000;
+    color: #fff;
+}
+
+  
+.footerSection .footerTop .btn2
+{
+    background: #ddd;
+    color: #000;
+}
+
+.footerSection .footerTop .buttons button:hover
+{
+    background-color: transparent;
+    color: #000;
+    border: 1px solid #000;
+}
+  
+.footerSection .footer
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 2rem;
+}
+  
+.footerSection .footer .nomSite
+{
+    font-weight: bold;
+}
+
+.footerSection .footer .liens 
+{
+    display: flex;
+    gap: 2rem;
+    margin:  0 90px 0 0;
+}
+
+.footerSection .footer .lienColum
+{
+    margin: 40px;
+}
+
+.footerSection .footer .lienColum h4 
+{
+    margin: 0 0 40px 0;
+}
+  
+.footerSection .footer .lienColum a 
+{
+    display: block;
+    text-decoration: none;
+    color: #333;
+    margin: 0 0 40px 0;
+}
