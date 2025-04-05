@@ -1,0 +1,293 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body
+{
+
+}
+
+/* section header */
+header 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    padding: 20px 0;
+    width: 100%;
+    height: 10vh;
+    background-color: #e3e1e1;
+    opacity: 0.9;
+}
+
+header .navDroit nav
+{
+    margin: 0 80px 0 0 ;
+}
+
+header .navDroit ul
+{
+    display: flex;
+    gap: 50px;
+    font-size: 1.5rem;
+}
+
+header .navDroit ul li a
+{
+    color: black;
+    padding: 10px 20px;
+}
+
+header .navDroit ul li a:hover
+{
+    background-color: #000;
+    color: white;
+    border-radius: 8px;
+    padding: 10px 20px;
+    transition: 0.5s ease-in-out;
+
+}
+
+header .navDroit .contact
+{
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: 0.6s ease-in-out;
+}
+
+header .navDroit .contact:hover
+{
+    background-color: transparent;
+    border: 1px solid #000;
+    color: #000;
+}
+
+header .navGauche
+{
+    font-size: 10px;
+    margin: 0 0 0 80px;
+}
+
+
+/* section premier parti */
+
+.premier
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.premier .premierTexte
+{
+
+    margin:20px 80px 20px 60px;
+}
+
+.premier .premierTexte h1
+{
+    font-size: 3rem;
+    margin: 100px 0 20px 0;
+}
+
+.premier .premierTexte p
+{
+    font-size: 17px;
+    margin: 0 0 20px 0;
+}
+
+.premier .premierTexte button
+{
+    background-color: #000;
+    color:#fff;
+    margin: 0 0 60px 0;
+    padding: 10px 30px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.premier .premierTexte button:hover
+{
+    background-color: transparent;
+    border: 2px solid #000;
+    color: #000;
+}
+
+.premier .premierImage img
+{
+    height: 800px;
+    width: 100%;
+}
+
+/* section deuxieme partie */
+
+.project
+{
+    color: #fff;
+    padding: 40px 20px;
+}
+
+.projet h1
+{
+    color: #000;
+    font-size: 36px;
+    margin: 40px 0 50px 60px;
+}
+
+.carte p
+{
+    text-align: left;
+}
+
+.containerProjet
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.carte
+{
+    color: #000;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.carte img
+{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 0 0 10px 0;
+}
+
+/* section troisieme partie  */
+
+.collect
+{
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100%;
+    gap: 50px;
+    margin-top: 80px;
+}
+
+.collect .gauche 
+{
+    margin: 0 0 20px 50px;
+}
+
+.collect .gauche h1
+{
+    font-size: 2.6rem;
+    margin: 0 0 30px 0;
+}
+
+.collect .gauche h3
+{
+    font-size: 2rem;
+}
+
+.collect .gauche p
+{
+    font-size: 1.3rem;
+    margin: 0 0 70px 0;
+}
+
+.collect .gauche .btn1
+{
+    color: #fff;
+    background-color: #000;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 24px;
+}
+
+
+.collect .gauche .btn2
+{
+    color: #000;
+    background-color: #ccc;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 54px;
+}
+
+.collect .gauche button:hover
+{
+    background-color: transparent;
+    border: 1px solid #000;
+    color: #000;
+}
+
+
+
+.collect .Droit img
+{
+    height: 600px;
+}
+
+/* section quatrieme partie  */
+
+.object
+{
+    color: #fff;
+    padding: 40px 20px;
+}
+
+.object h1
+{
+    color: #000;
+    font-size: 36px;
+    margin:0 0 50px 37px;
+}
+
+.carteObject p
+{
+    text-align: left;
+}
+
+.containerObject
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.carteObject
+{
+    color: #000;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.carteObject img
+{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 0 0 10px 0;
+}
+
+
+

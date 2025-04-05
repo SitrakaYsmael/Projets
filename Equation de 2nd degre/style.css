@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e;
+    text-align: center;
+}
+
+.ToutContenue {
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgb(0, 0, 0);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 10.0);
+    border-radius: 10px;
+}
+
+h1 
+{
+    color: #1af03e;
+    text-shadow: 0px 0px 10px rgba(13, 255, 0, 9.0);
+    box-shadow: 0px 0px 10px rgb(13, 255, 0, 19);
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+label
+{
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: #00ff0d;
+}
+
+input
+{
+    width: 50%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border:  1px solid #09ff00;
+    color: #09ff00;
+    background-color: #01380e;
+}
+button {
+    background-color: #03661a;
+    color: rgb(255, 255, 255);
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgb(13, 255, 0, 19);
+}
+
+button:hover {
+    background-color: #034210;
+}
+
+#resultat {
+    font-size: 18px;
+    font-weight: bold;
+    color: #0aff1e;
+}
+
+
+
